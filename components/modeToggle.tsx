@@ -20,8 +20,8 @@ export function ModeToggle() {
   const moonSunAnimation = require('../public/assets/sun-moon.json')
 
   const style = {
-    height: 120,
-    width: 120
+    height: 100,
+    width: 100
   }
 
   // const interactivity = {
@@ -41,7 +41,7 @@ export function ModeToggle() {
   // }
 
   return (
-    <button onClick={() => {
+    <button className="top-0 absolute right-2 sm:relative" onClick={() => {
       setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
     }}>
       <Lottie

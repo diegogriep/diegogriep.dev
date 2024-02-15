@@ -12,13 +12,12 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 
-
 export function Menu() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <Link href="/about" legacyBehavior passHref>
+          <Link href="/#about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               About
             </NavigationMenuLink>
@@ -26,7 +25,7 @@ export function Menu() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="/skills" legacyBehavior passHref>
+          <Link href="/#skills" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Skills
             </NavigationMenuLink>

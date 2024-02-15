@@ -1,0 +1,67 @@
+export const skills = [{
+  skill: 'HTML',
+  knowledge: 5
+}, {
+  skill: 'CSS',
+  knowledge: 5
+}, {
+  skill: 'JavaScript',
+  knowledge: 5
+}, {
+  skill: 'React',
+  knowledge: 5
+}, {
+  skill: 'Angular',
+  knowledge: 3
+}, {
+  skill: 'GraphQL',
+  knowledge: 4
+}, {
+  skill: 'Storybook',
+  knowledge: 5
+}, {
+  skill: 'NextJS',
+  knowledge: 4
+}, {
+  skill: 'Unit testing',
+  knowledge: 4
+}, {
+  skill: 'Redux',
+  knowledge: 4
+}, {
+  skill: 'Observability',
+  knowledge: 3
+}, {
+  skill: 'Monitoring',
+  knowledge: 3
+}, {
+  skill: 'Redis',
+  knowledge: 2
+}, {
+  skill: 'Jenkins',
+  knowledge: 3
+}, {
+  skill: 'PHP',
+  knowledge: 4
+}, {
+  skill: 'MySQL',
+  knowledge: 4
+}, {
+  skill: 'SEO',
+  knowledge: 4
+}, {
+  skill: 'Accessibility',
+  knowledge: 4
+}, {
+  skill: 'Wordpress',
+  knowledge: 4
+}, {
+  skill: 'Strapi',
+  knowledge: 4
+}, {
+  skill: 'XAML',
+  knowledge: 2
+}, {
+  skill: 'Xamarin',
+  knowledge: 2
+}]
