@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedinIcon, TwitterIcon, Instagram } from "lucide-react";
+import { GithubIcon, LinkedinIcon, TwitterIcon, AtSign } from "lucide-react";
 
 export const socials = [{
   name: 'Github',
@@ -16,8 +16,8 @@ export const socials = [{
   icon: TwitterIcon
 },
 {
-  name: 'Instagram',
-  link: 'https://instagram.com/diegogriep',
-  icon: Instagram
+  name: 'email',
+  link: 'mailto:hello@diegogriep.dev',
+  icon: AtSign
 },
 ]
