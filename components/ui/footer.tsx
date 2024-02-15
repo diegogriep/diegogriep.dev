@@ -1,4 +1,7 @@
+'use client'
+
 import { socials } from "@/content/socials";
+import { sendGAEvent } from "@next/third-parties/google";
 import Link from "next/link";
 
 export function Footer() {
@@ -10,6 +13,7 @@ export function Footer() {
           href={social.link}
           target="_blank"
           title={social.name}
+          onClick={() => sendGAEvent({ event: 'buttonClicked', value: social.name })}
         >
           <social.icon className="ml-auto h-6 w-6 dark:drop-shadow-[0_0_0.3rem_#ffffff70]" />
         </Link>

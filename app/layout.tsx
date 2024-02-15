@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
@@ -34,6 +35,7 @@ export default function RootLayout({
 
           <Footer />
         </ThemeProvider>
+        <GoogleAnalytics gaId="G-0T401WJ98Q" />
       </body>
     </html>
   );

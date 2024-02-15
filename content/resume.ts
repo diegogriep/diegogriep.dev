@@ -30,7 +30,7 @@ export const resume = {
     skills: ['React', 'Emotion', 'Typescript', 'Design System', 'Remix', 'Unit testing', 'Jest', 'React Testing Library', 'Redis', 'Octopus', 'Docker', 'Webpack', 'Storybook', 'Observability', 'Monitoring'],
   }, {
     company: 'Mindpool',
-    description: 'Speak about mindpool project',
+    description: '',
     location: 'Denmark',
     locationType: 'Remote (from Brazil)',
     period: '10/2021 - 05/2022',
@@ -41,7 +41,7 @@ export const resume = {
     skills: ['NextJS', 'styled-components', 'Strapi', 'CMS', 'PlopJS', 'Jest', 'React Testing Library', 'Storybook'],
   }, {
     company: 'Accenture / Concrete',
-    description: 'Speak about accenture/concrete project',
+    description: 'Besides my responsibility for code development, I had the experience of being a Career Counselor (mentor) to eight people.',
     location: 'Belo Horizonte - Brazil',
     locationType: 'On site',
     period: '02/2017 - 10/2021',

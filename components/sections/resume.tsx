@@ -16,7 +16,9 @@ export default function Resume() {
           <p className="text-sm mb-4">
             {experience.location} (<span>{experience.locationType}</span>)
           </p>
-          <p className="mb-4 font-light">{experience.description}</p>
+          {experience.description && (
+            <p className="mb-4 font-light">{experience.description}</p>
+          )}
 
           <h3 className="text-fuchsia-300 mb-2">Project{experience.projects.length > 1 && 's'}:</h3>
           {experience.projects.map((project, projectIndex) => (

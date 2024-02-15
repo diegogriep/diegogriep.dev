@@ -1,5 +1,7 @@
 "use client"
 
+import { sendGAEvent } from '@next/third-parties/google'
+
 import * as React from "react"
 import Link from "next/link"
 
@@ -18,7 +20,8 @@ export function Menu() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/#about" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}
+              onClick={() => sendGAEvent({ event: 'buttonClicked', value: 'About' })}>
               About
             </NavigationMenuLink>
           </Link>
@@ -26,7 +29,8 @@ export function Menu() {
 
         <NavigationMenuItem>
           <Link href="/#skills" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}
+              onClick={() => sendGAEvent({ event: 'buttonClicked', value: 'Skills' })}>
               Skills
             </NavigationMenuLink>
           </Link>
@@ -34,7 +38,8 @@ export function Menu() {
 
         <NavigationMenuItem>
           <Link href="/resume" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}
+              onClick={() => sendGAEvent({ event: 'buttonClicked', value: 'Resume' })}>
               Resume
             </NavigationMenuLink>
           </Link>
