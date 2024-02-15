@@ -36,7 +36,7 @@ export const resume = {
     period: '10/2021 - 05/2022',
     projects: [{
       name: 'Mindpool Website',
-      description: 'Working together with the stakeholders (and designer), I developed the new website company from scratch: mindpool.com. I configured and set up Strapi to provide an API for the content management system. The progress was demonstrated every ten days or sprint. My first approach was to get time to do a static website and create the dynamic version, getting information from CMS (Strapi).'
+      description: 'Working together with the stakeholders (and designer), I developed the new website company from scratch: mindpool.com. I configured and set up Strapi to provide an API for the content management system. The progress was demonstrated every ten days (sprint). My first approach was to get time to do a static website and create the dynamic version, getting information from CMS (Strapi).'
     }],
     skills: ['NextJS', 'styled-components', 'Strapi', 'CMS', 'PlopJS', 'Jest', 'React Testing Library', 'Storybook'],
   }, {
