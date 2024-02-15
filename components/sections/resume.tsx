@@ -8,7 +8,7 @@ export default function Resume() {
     <article className="w-full">
       <Title as="h1" primaryColor="cyan" secondaryColor="pink"
         text="Work Experience" />
-      <p className="text-slate-500 mb-4">My last three work experiences. You can see my (almost) career timeline on my <Link target="_blank" className="dark:decoration-yellow-400 underline hover:overline" href='https://linkedin.com/in/diegogriep' title='Diego Griep linkedin'><LucideExternalLink className="inline-block" size={16} /> LinkedIn</Link> or <Link className="dark:decoration-yellow-400 underline hover:overline" href='https://linkedin.com/in/diegogriep' title='Diego Griep linkedin'><Download className="inline-block" size={16} /> curriculum</Link>.</p>
+      <p className="text-slate-500 mb-4">My last three work experiences. You can see my (almost) career timeline on my <Link target="_blank" className="dark:decoration-yellow-400 underline hover:overline" href='https://linkedin.com/in/diegogriep' title='Diego Griep linkedin'><LucideExternalLink className="inline-block" size={16} /> LinkedIn</Link> or <Link download className="dark:decoration-yellow-400 underline hover:overline" href='/assets/pdf/Senior-Frontend-Diego-Griep.pdf' title='Diego Griep linkedin'><Download className="inline-block" size={16} /> curriculum</Link>.</p>
 
       {resume.workExperience.map((experience, index) => (
         <article key={index}>
