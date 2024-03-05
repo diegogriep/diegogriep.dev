@@ -5,10 +5,11 @@ type TitleProps = {
   secondaryColor: string
   text: string
   as?: string
+  invert?: boolean
 }
 
-export const Title = ({ as = 'h3', primaryColor, secondaryColor, text }: TitleProps) => {
-  const classNames = `mb-4 font-extrabold text-2xl sm:text-4xl scroll-m-4`
+export const Title = ({ as = 'h3', invert, primaryColor, secondaryColor, text }: TitleProps) => {
+  const classNames = `mb-4 font-extrabold text-2xl sm:text-4xl scroll-m-4 ${invert ? 'dark:invert' : ''}`
   const Heading = ({ ...props }: React.HTMLAttributes<HTMLHeadingElement>) => createElement(as, props, text)
 
   return (

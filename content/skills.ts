@@ -23,6 +23,9 @@ export const skills = [{
   skill: 'NextJS',
   knowledge: 4
 }, {
+  skill: 'Tailwind',
+  knowledge: 4
+}, {
   skill: 'Unit testing',
   knowledge: 4
 }, {

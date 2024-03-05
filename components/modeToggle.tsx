@@ -21,7 +21,7 @@ export function ModeToggle() {
   }
 
   return (
-    <button aria-label="Button to activate the animation" className="top-0 absolute right-2 sm:relative" onClick={() => {
+    <button aria-label="Button to activate the animation" className="top-0 absolute right-2 md:relative" onClick={() => {
       setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
     }}>
       <Lottie
