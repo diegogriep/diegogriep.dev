@@ -19,7 +19,7 @@ export const resume = {
     description: 'As a senior software engineer on the FPS team, I am involved in the rewriting process of their digital solutions using technologies such as Next.JS, Remix, and Typescript. Furthermore, I closely work with the head of engineering to further develop strategic technical solutions for FPS products.',
     location: 'Porto - Portugal',
     locationType: 'Hybrid',
-    period: '06/2020 - present',
+    period: '06/2022 - 02/2024',
     projects: [{
       name: 'E-commerce Project for an American fitness footwear and clothing brand.',
       description: 'We developed the foundations of the application like handlers for Session, Internalization (A plugin was created to communicate between Remix and the Language API), and Cache. To monitor the application we used New Relic and Logz.io, this implementation was made by my team. I was part of the team responsible for the project going to production.'
