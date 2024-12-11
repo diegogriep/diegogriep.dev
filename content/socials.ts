@@ -15,9 +15,4 @@ export const socials = [{
   link: 'https://twitter.com/diegogriep',
   icon: TwitterIcon
 },
-{
-  name: 'email',
-  link: 'mailto:hello@diegogriep.dev',
-  icon: AtSign
-},
 ]
