@@ -15,6 +15,25 @@ export const resume = {
     school: 'Universidade Anhembi Morumbi',
   }],
   workExperience: [{
+    company: 'Mercedes-Benz.io',
+    description: `Inside the Connect Project, I worked in two different teams.
+
+    The first one was responsible for building new features, and the team composition had four backend developers, three frontend developers, two QA analysts, a SM, and also PO.
+
+    While the other team was basically made up of six frontend developers responsible for the whole application, two QA analysts, a designer, ITC, SM, PO and PM.
+
+    Project stack: Vue.js (Options and Composition API), Nuxt (BFF), Vitest for unit tests, Storybook, Datadog for monitoring, FIGMA as the design tool.
+
+    We use SAFe Scrum as an agile method, and all meetings like Daily, Planning, etc.`,
+    location: 'Porto - Portugal',
+    locationType: 'Remote',
+    period: '06/2024 - Present',
+    projects: [{
+      name: 'Mercedes-Benz Connect Store',
+      description: 'I have been working on Connect Store, an e-commerce site selling connected services and on-demand products. Our goal is to ensure a smooth rollout of digital services and products to digitalize the Mercedes-Benz ecosystem.'
+    }],
+    skills: ['Vue.js', 'Nuxt', 'Typescript', 'Design System', 'Vitest', 'Unit testing', 'Datadog', 'BFF', 'Docker', 'Vite', 'Storybook', 'Observability', 'Monitoring'],
+  }, {
     company: 'FARFETCH',
     description: 'As a senior software engineer on the FPS team, I am involved in the rewriting process of their digital solutions using technologies such as Next.JS, Remix, and Typescript. Furthermore, I closely work with the head of engineering to further develop strategic technical solutions for FPS products.',
     location: 'Porto - Portugal',
