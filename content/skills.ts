@@ -67,4 +67,12 @@ export const skills = [{
 }, {
   skill: 'Xamarin',
   knowledge: 2
+},
+{
+  skill: 'Vue.js',
+  knowledge: 3
+},
+{
+  skill: 'Angular',
+  knowledge: 3
 }]
